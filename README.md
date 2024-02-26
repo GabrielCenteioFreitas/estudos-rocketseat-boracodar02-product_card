@@ -23,12 +23,14 @@
 
 <br>
 <p align="center">
-  <img alt="Imagem do projeto." src=".github/preview02.jpg">
+  <img alt="Imagem do projeto." src=".github/preview02.jpg" width="800px">
 </p>
-<h4 align="right">
+
+<h4 align="center">
   
   [GitHub Pages](https://gabrielcenteiofreitas.github.io/estudos-rocketseat-boracodar02-product_card/)
 </h4>
+
 <br>
 
 
