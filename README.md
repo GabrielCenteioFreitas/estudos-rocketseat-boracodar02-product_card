@@ -1,4 +1,4 @@
-<h1 align="center">BoraCodar - Desafio 01</h1>
+<h1 align="center">BoraCodar - Desafio 02</h1>
 
 <p align="center">
   <a alt="HTML5">
