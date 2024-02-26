@@ -1,34 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="animated">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Card</title>
-    
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <div id="show" class="gif">
-            <img id="sofa-img" src="assets/sofa.png" alt="Imagem do Sofá">
-            <img id="sofa-gif" src="assets/sofa.gif" alt="Gif do Sofá">
-            <button id="btn-360" class="btn-icon" onclick="toggleSofa()">
-                <img id="icon-360" class="icon" src="assets/icon-360.svg" alt="Ícone 360">
+    <div id="app">
+        <div id="product-image">
+            <button id="btn-360" onclick="toggle()">
+                <img src="./assets/360.svg" alt="clique nesse botão para animar o sofá">
             </button>
-            <button id="btn-close" class="btn-icon" onclick="toggleSofa()">
-                <img id="icon-close" class="icon" src="assets/icon-close.svg" alt="Ícone de Fechar">
+            <button id="btn-close" onclick="toggle()">
+                <img src="./assets/close.svg" alt="clique nesse botão para parar de animar o sofá">
             </button>
-        </div>
-        <div id="info">
-            <div id="main-infos">
-                <p id="codigo">CÓDIGO: 42404</p>
-                <h1 id="nome">Sofá Margot II - Rosé</h1>
-                <p id="preco">R$ 4.000</p>
-            </div>
-            <button id="btn-adicionar">ADICIONAR À CESTA</button>
-        </div>
-    </main>
 
-    <script src="script.js"></script>
+            <img id="static" src="./assets/sofa.png" alt="sofa">
+            <img id="animated" src="./assets/sofa.gif" alt="sofa animado">
+        </div>
+        <div id="product-details">
+            <h4>CÓDIGO: 42404</h4>
+            <h1>Sofá Margot II - Rosé</h1>
+            <p>R$ 4.000</p>
+            <button>ADICIONAR À CESTA</button>
+        </div>
+    </div>
+
+    <script>
+        function toggle() {
+            document.documentElement.classList.toggle("animated");
+        }
+    </script>
 </body>
 </html>
