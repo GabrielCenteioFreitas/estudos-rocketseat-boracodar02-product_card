@@ -46,7 +46,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Projeto de um Product Card desenvolvido a partir do Desafio 02 do evento "BoraCodar" da RocketSeat com o objetivo de treinar e aprimorar habilidades.
+Projeto de um Product Card desenvolvido a partir do Desafio 02 do evento "BoraCodar" da Rocketseat com o objetivo de treinar e aprimorar habilidades.
 
 ## 🔖 Layout
 
