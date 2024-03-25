@@ -23,7 +23,7 @@
 
 <br>
 <p align="center">
-  <img alt="Imagem do projeto." src=".github/preview02.jpg" width="800px">
+  <img alt="Imagem do projeto." src=".github/preview02.jpg" width="80%">
 </p>
 
 <h4 align="center">
